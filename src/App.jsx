@@ -43,10 +43,9 @@ export default function App() {
 
   const onSubmit = async (event) => {
     event.preventDefault()
-    const response = await fetch('http://localhost:3000/posts' , {
-      method : "POST" ,
+    const response = await fetch('http://localhost:3000/posts/8' , {
+      method : "PATCH" ,
       body : JSON.stringify(formData) ,
-
       headers: {
         "Content-Type": "application/json",
       },
@@ -54,22 +53,32 @@ export default function App() {
     } )
     console.log(response)
   }
+  const handleDelete =  async (id) => {
+    console.log(id , ' from handleDelete button')
+
+    const response  = await fetch("http://localhost:3000/posts/" + id ,{
+      method : "DELETE"
+    })
+  }
+
+
   return (
     <div className='min-h-screen flex justify-center items-center bg-gray-100'>
-      {/* <div className=''>
+      <div className='my-5 mr-10'>
          {
-          posts?.map(post => <li key={post.id}>{post.title}</li>)
+          posts?.map(post => <li key={post.id}> {post.id}  :   {post.content} 
+          <button onClick={() => handleDelete(post.id)} className='px-4 py-2 my-8 bg-red-500 cursor-pointer rounded-md'>delete</button></li>)
          }
-      </div> */}
+      </div>
 
       <div className='block' >
 
         <form onSubmit={onSubmit}>
-          <input type="text" className='my-4'  onChange={handleChange} value={formData.title} name="title" placeholder='enter your title' />
+          {/* <input type="text" className='my-4 p-4 w-[300px]'  onChange={handleChange} value={formData.title} name="title" placeholder='enter your title' /> */}
           <br />
-          <input type="text" className='my-4' onChange={handleChange} value={formData.content} name="content" placeholder='enter your content' />
+          <input type="text" className='my-4 p-4 w-[300px]' onChange={handleChange} value={formData.content} name="content" placeholder='enter your content' />
           <br />
-          <input type="text" className='my-4' onChange={handleChange} value={formData.value} name="author" placeholder='enter author name' />
+          {/* <input type="text" className='my-4 p-4 w-[300px]' onChange={handleChange} value={formData.value} name="author" placeholder='enter author name' /> */}
           <br />
           <button type='submit'>
             submit

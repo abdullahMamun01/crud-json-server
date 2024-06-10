@@ -8,13 +8,6 @@
       "date": "2024-06-01T08:30:00Z"
     },
     {
-      "id": "2",
-      "title": "Understanding REST APIs",
-      "content": "REST APIs are a way to enable communication between different software applications over the web.",
-      "author": "Jane Smith",
-      "date": "2024-06-02T10:00:00Z"
-    },
-    {
       "id": "3",
       "title": "Getting Started with Node.js",
       "content": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
@@ -27,20 +20,6 @@
       "content": "Learn how to build a simple web application using HTML, CSS, and JavaScript.",
       "author": "Bob Brown",
       "date": "2024-06-04T14:45:00Z"
-    },
-    {
-      "id": "7",
-      "title": "A Guide to CSS Flexbox",
-      "content": "Flexbox is a layout model that allows for responsive and flexible web design.",
-      "author": "Frank Green",
-      "date": "2024-06-07T20:30:00Z"
-    },
-    {
-      "id": "8",
-      "title": "Introduction to React",
-      "content": "React is a JavaScript library for building user interfaces.",
-      "author": "Grace Harris",
-      "date": "2024-06-08T22:00:00Z"
     },
     {
       "id": "9",
@@ -76,12 +55,6 @@
     },
     {
       "id": "7ab6",
-      "title": "fafdasf",
-      "content": "asdfdasfas",
-      "author": "asdfasfasd"
-    },
-    {
-      "id": "3b4e",
       "title": "fafdasf",
       "content": "asdfdasfas",
       "author": "asdfasfasd"
