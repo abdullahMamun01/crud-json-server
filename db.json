@@ -1,0 +1,97 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Introduction to JSON Server",
+      "content": "JSON Server is a tool that lets you create a fake REST API easily.",
+      "author": "John Doe",
+      "date": "2024-06-01T08:30:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Understanding REST APIs",
+      "content": "REST APIs are a way to enable communication between different software applications over the web.",
+      "author": "Jane Smith",
+      "date": "2024-06-02T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Getting Started with Node.js",
+      "content": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+      "author": "Alice Johnson",
+      "date": "2024-06-03T12:15:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Building a Simple Web Application",
+      "content": "Learn how to build a simple web application using HTML, CSS, and JavaScript.",
+      "author": "Bob Brown",
+      "date": "2024-06-04T14:45:00Z"
+    },
+    {
+      "id": "7",
+      "title": "A Guide to CSS Flexbox",
+      "content": "Flexbox is a layout model that allows for responsive and flexible web design.",
+      "author": "Frank Green",
+      "date": "2024-06-07T20:30:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Introduction to React",
+      "content": "React is a JavaScript library for building user interfaces.",
+      "author": "Grace Harris",
+      "date": "2024-06-08T22:00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Advanced JavaScript Techniques",
+      "content": "Explore some advanced concepts and techniques in JavaScript programming.",
+      "author": "Henry Adams",
+      "date": "2024-06-09T23:30:00Z"
+    },
+    {
+      "id": "10",
+      "title": "update by patch request only",
+      "content": "content is update",
+      "author": "Ivy Wilson",
+      "date": "2024-06-10T01:00:00Z"
+    },
+    {
+      "id": "f474",
+      "title": "update by patch request",
+      "content": "react.js",
+      "atuhor": "sadiq"
+    },
+    {
+      "id": "d085",
+      "title": "fafdasf",
+      "content": "asdfdasfas",
+      "author": "asdfasfasd"
+    },
+    {
+      "id": "9364",
+      "title": "fafdasf",
+      "content": "asdfdasfas",
+      "author": "asdfasfasd"
+    },
+    {
+      "id": "7ab6",
+      "title": "fafdasf",
+      "content": "asdfdasfas",
+      "author": "asdfasfasd"
+    },
+    {
+      "id": "3b4e",
+      "title": "fafdasf",
+      "content": "asdfdasfas",
+      "author": "asdfasfasd"
+    },
+    {
+      "id": "8571",
+      "title": "react.js",
+      "content": "Learn how to learn react js from docs",
+      "author": "asdfasfasd"
+    }
+  ],
+  "students": []
+}
